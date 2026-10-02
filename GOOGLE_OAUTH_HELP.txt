@@ -1,0 +1,50 @@
+Wihanga4U GDrive Direct Uploader
+Google OAuth Client ID / Client Secret Help
+
+1) Open:
+   https://console.cloud.google.com/
+
+2) Create or select a Google Cloud project.
+
+3) Enable Google Drive API:
+   APIs & Services
+   -> Library
+   -> Search "Google Drive API"
+   -> Google Drive API
+   -> Enable
+
+4) Configure Google Auth Platform:
+   Google Auth Platform
+   -> Branding
+   -> Add App name, support email, developer contact email
+
+5) Set Audience:
+   Google Auth Platform
+   -> Audience
+   -> External (normal Gmail/personal accounts)
+   -> Test users
+   -> Add the Google account that will use the uploader
+
+6) Create OAuth Client:
+   Google Auth Platform
+   -> Clients
+   -> Create Client
+   -> Application type: Desktop app
+   -> Name: Wihanga4U GDrive Uploader
+   -> Create
+
+7) Copy:
+   - Client ID
+   - Client Secret
+
+Inside START.bat:
+- Choose option 1.
+- At Client ID prompt, type H for this help inside the program.
+- Paste Client ID.
+- At Client Secret stage, type H if you need the path again.
+- Client Secret input is hidden.
+
+SECURITY:
+- Never commit .data/rclone.conf.
+- Never commit your Client Secret.
+- Do not share screenshots that expose your Client Secret.

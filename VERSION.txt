@@ -1,0 +1,2 @@
+Wihanga4U GDrive Direct Uploader v1.2
+Built-in Google OAuth Client ID / Client Secret help added.
